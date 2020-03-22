@@ -1,0 +1,104 @@
+.news-list .col-lg-6:nth-child(odd) {
+    border-right: 1px solid #e1e1e1;
+}
+
+.news-list {
+    padding-top: 20px;
+}
+
+.note .news-article a {
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-right: 12px;
+    background: url("../images/png/link-arrow.png") no-repeat right 50%;
+    color: #000000;
+    cursor: pointer;
+}
+
+.note h1,
+.note h2,
+.note h3,
+.note h4,
+.note p,
+.note iframe {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.note .news-article {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.video-box:first-child .video {
+    width: 50%;
+}
+
+.video-box:first-child .play__header {
+    font-size: 2.188em
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .video-box:first-child .play__header {
+        font-size: 1.25em;
+    }
+}
+
+@media (max-width: 991px){
+    .video-box:first-child .play__header {
+        font-size: 1em;
+    }
+}
+
+.video-box:first-child .play__img {
+    width: 51px !important
+}
+
+.listing {
+    width: 100%;
+}
+
+.goods-item .label {
+    position: initial;
+}
+
+
+/*.news-list .news_item {
+    padding-left: 15px;
+    padding-right: 15px;
+}*/
+
+.instagram-section {
+    width: 100%;
+}
+
+.footer-socials li {
+    list-style-type: none;
+}
+
+a.disabled {
+    pointer-events: none;
+    /* делаем элемент неактивным для взаимодействия */
+    cursor: default;
+    /*  курсор в виде стрелки */
+    color: #5f5f5f!important;
+}
+
+.bx-viewport li {
+    min-height: 1px;
+    min-width: 1px;
+}
+
+#goods-pager {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.goods-minislider {}
+
+.goods-minislider li {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
